@@ -1,6 +1,6 @@
 {
     "name": "sapper-template",
-    "description": "Student Talent Pool svelte/sapper template project",
+    "description": "Typescript, pug & SCSS sapper template project",
     "version": "1.0.0",
     "scripts": {
         "dev": "sapper dev",
