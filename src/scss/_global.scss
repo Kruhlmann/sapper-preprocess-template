@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Siemens Sans";
+    src: url("../ttf/SiemensSans.ttf");
+}
+@font-face {
+    font-family: "Siemens Sans";
+    src: url("../ttf/SiemensSans-Bold.ttf");
+    font-weight: bold;
+}
+
+:global(*) {
+    font-family: "Siemens Sans";
+}
+
+:global(html, body, #sapper) {
+    height: 100%;
+}
+
+:global(input[type="date"]) {
+    cursor: pointer;
+}
+
