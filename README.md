@@ -41,17 +41,9 @@ avaliable for use in both svelte routes and included pug templates.
 
 ### File locations
 
-#### Typescript
-
-[src/typescript/<file>.ts](./src/typescript/)
-
-#### PUG 
-
-[src/pug/<file>.pug](./src/pug/)
-
-### SCSS
-
-[src/scss/routes/<file>.scss](./src/scss/routes/)
+* Typescript [src/typescript/<file>.ts](./src/typescript/)
+* PUG [src/pug/<file>.pug](./src/pug/)
+* SCSS [src/scss/routes/<file>.scss](./src/scss/routes/)
 
 ### Naming convention
 
