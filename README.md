@@ -3,8 +3,6 @@
 ## Introduction
 
 This template is built to support Typescript, PUG and SCSS in a sapper project.
-It should be used for all student talent pool projects, that center around the
-svelte/sapper stack.
 
 ## Setup
 
