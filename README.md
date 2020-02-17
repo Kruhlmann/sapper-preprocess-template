@@ -24,7 +24,7 @@ yarn run dev
 `node sapper/__sapper__/build` or `yarn run start`
 * `yarn run start` Runs the built solution in production mode
 * `yarn run cy:run` Opens the cypress runner for all integration tests in
-`./sapper/cypress/`
+[cypress](./cypress/)
 * `yarn run cy:open` Runs an interactive cypress window for running integration
 tests
 * `yarn run format:pug` Beautifies all PUG files in the
@@ -59,3 +59,8 @@ such that `src/routes/index.svelte` references
 <template lang="pug" src="../pug/index.pug"></template>
 <style lang="scss" src="../scss/routes/index.scss"></style>
 ```
+
+## Reactive variables
+
+Reactive variables are currently not supported in svelte-preprocess
+([Source](https://github.com/sveltejs/svelte/issues/3670#issuecomment-541224931)).
