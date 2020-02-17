@@ -9,7 +9,7 @@ svelte/sapper stack.
 ## Setup
 
 ```bash
-git clone git@mo-gitlab.siemens.dk:student-talent-pool/sapper-template.git
+git clone https://github.com/Kruhlmann/sapper-preprocess-template
 cd sapper-template
 yarn install
 yarn run dev
