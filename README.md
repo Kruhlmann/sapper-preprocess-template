@@ -74,6 +74,13 @@ becomes
   row(on:click="{function() {row_click(row)}}")
 ```
 
+This is only relevant for functions requiring a parameter as the following pug snippet will compile and execute as expected:
+
+```pug
+button(on:click="{btn_click}")
+```
+This snippet will simply execute a function, `btn_click` with the click event as the only parameter, simmilarly to regular svelte behavior.
+
 ## Reactive variables
 
 Reactive variables are currently not supported in svelte-preprocess
