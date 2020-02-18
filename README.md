@@ -60,14 +60,14 @@ such that `src/routes/index.svelte` references
 
 ## Svelte properties in pug
 
-Adding complicated tag parameters can be tricky when supporting pug. For instance the following syntax will be escaped such that `() => row_click(row)` becomes `() =&gt; row_click(row)`. This can be circumvented by using the long ecmascript function declaration such that
+Adding complicated tag parameters can be tricky when supporting pug. For instance the following syntax will be escaped such that `() => row_click(row)` becomes `() =&gt; row_click(row)`. This can be circumvented by using the long ECMAScript function declaration such that
 
 ```pug
 +each('data_rows as row')
   row(on:click="{() => row_click(row)}")
 ```
 
-Becomes
+becomes
 
 ```pug
 +each('data_rows as row')
