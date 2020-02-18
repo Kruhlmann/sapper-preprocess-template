@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This template is built to support Typescript, PUG and SCSS in a sapper project.
+This template is built to support Typescript, pug and SCSS in a sapper project.
 
 ## Setup
 
@@ -25,7 +25,7 @@ yarn run dev
 [cypress](./cypress/)
 * `yarn run cy:open` Runs an interactive cypress window for running integration
 tests
-* `yarn run format:pug` Beautifies all PUG files in the
+* `yarn run format:pug` Beautifies all pug files in the
 [pug source directory](./src/pug/)
 * `yarn run test` Executes cypress integration tests
 
@@ -40,7 +40,7 @@ avaliable for use in both svelte routes and included pug templates.
 ### File locations
 
 * Typescript [src/typescript/file.ts](./src/typescript/)
-* PUG [src/pug/file.pug](./src/pug/)
+* pug [src/pug/file.pug](./src/pug/)
 * SCSS [src/scss/routes/file.scss](./src/scss/routes/)
 
 ### Naming convention
@@ -56,6 +56,22 @@ such that `src/routes/index.svelte` references
 <script lang="ts" src="../typescript/index.ts"></script>
 <template lang="pug" src="../pug/index.pug"></template>
 <style lang="scss" src="../scss/routes/index.scss"></style>
+```
+
+## Svelte properties in pug
+
+Adding complicated tag parameters can be tricky when supporting pug. For instance the following syntax will be escaped such that `() => row_click(row)` becomes `() =&gt; row_click(row)`. This can be circumvented by using the long ecmascript function declaration such that
+
+```pug
++each('data_rows as row')
+  row(on:click="{() => row_click(row)}")
+```
+
+Becomes
+
+```pug
++each('data_rows as row')
+  row(on:click="{function() {row_click(row)}}")
 ```
 
 ## Reactive variables
