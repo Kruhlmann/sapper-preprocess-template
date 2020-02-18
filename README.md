@@ -78,7 +78,7 @@ becomes
   row(on:click="{function() {row_click(row)}}")
 ```
 
-This is only relevant for functions requiring a parameter as the following pug snippet will compile and execute as expected:
+This is only relevant for functions that require no parameter or only the event paramater as the following pug snippet will compile and execute as expected:
 
 ```pug
 button(on:click="{btn_click}")
