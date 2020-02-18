@@ -4,6 +4,10 @@
 
 This template is built to support Typescript, pug and SCSS in a sapper project.
 
+## Requirements
+
+The project depends on a POSIX compliant shell such as GNU Bash and as such is not guaranteed to work on operating systems such as Windows. You may be successful if you're running through a bash emulator such as Git Bash or MINGW32 but know that it is not targeted for support.
+
 ## Setup
 
 ```bash
