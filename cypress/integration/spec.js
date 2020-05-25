@@ -1,6 +1,6 @@
 /**
  * File spec.js created on 25-05-2020.
- * Last modified on 2020-05-25T21:42:13 CEST
+ * Last modified on 2020-05-25T23:45:11 CEST
  *
  * @fileoverview Integration test definitions file.
  * @license GPL-3.0-or-later
@@ -15,6 +15,11 @@ describe("Sapper template app", () => {
     });
 
     it("has the correct <p>", () => {
-        cy.contains("p", "Hello, World!");
+        cy.contains("p", "You've clicked me 0 times!");
+    });
+
+    it("responds to a click event", () => {
+        cy.get("p").click();
+        cy.contains("p", "You've clicked me 1 times!");
     });
 });
