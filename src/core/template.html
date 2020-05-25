@@ -1,0 +1,26 @@
+<!--
+ - File template.html created on 25-05-2020.
+ - Last modified on 2020-05-25T21:08:17 CEST
+ -
+ - Serves as the root document for the sapper app.
+ -
+ - License GPL-3.0-or-later
+ - Author Andreas Krühlmann <echo "YW5kcmVhc0BrcnVobG1hbm4uZGV2Cg==" | base64 -d>
+-->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        %sapper.base%
+        %sapper.styles%
+        %sapper.head%
+    </head>
+    <body>
+        <div id="sapper">
+            %sapper.html%
+        </div>
+        %sapper.scripts%
+    </body>
+</html>
