@@ -28,5 +28,5 @@ jobs:
     - name: lint 
       run: yarn run lint
     - name: build-image 
-      run: docker-compose up
+      run: docker-compose up -d
 
