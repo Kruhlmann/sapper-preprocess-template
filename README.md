@@ -6,8 +6,6 @@ This template is built to support Typescript, pug and SCSS in a sapper project.
 
 ## Requirements
 
-The project depends on a POSIX compliant shell such as GNU Bash if you want to use the `format:pug` command.
-
 ## Setup
 
 ```bash
