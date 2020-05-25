@@ -1,1 +1,8 @@
-p(on:click="{on_lbl_click}") You've clicked me {clicks} times!
+.container
+    div.label
+        | You've clicked the
+        span.color-indicator(class="{selected_btn}") {selected_btn}
+        | button
+    .buttons
+        button.red(on:click="{function() { select_clr('red') }}") Red
+        button.blue(on:click="{function() { select_clr('blue') }}") Blue

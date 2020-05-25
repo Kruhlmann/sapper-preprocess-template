@@ -1,6 +1,6 @@
 /**
  * File spec.js created on 25-05-2020.
- * Last modified on 2020-05-25T23:45:11 CEST
+ * Last modified on 2020-05-26T00:22:33 CEST
  *
  * @fileoverview Integration test definitions file.
  * @license GPL-3.0-or-later
@@ -14,12 +14,14 @@ describe("Sapper template app", () => {
         cy.visit("/");
     });
 
-    it("has the correct <p>", () => {
-        cy.contains("p", "You've clicked me 0 times!");
+    it("has the correct initial color-indicator", () => {
+        cy.contains(".color-indicator", "red");
     });
 
-    it("responds to a click event", () => {
-        cy.get("p").click();
-        cy.contains("p", "You've clicked me 1 times!");
+    it("responds to click events", () => {
+        cy.get("button.blue").click();
+        cy.contains(".color-indicator", "blue");
+        cy.get("button.red").click();
+        cy.contains(".color-indicator", "red");
     });
 });

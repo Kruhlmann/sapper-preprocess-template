@@ -1,6 +1,6 @@
 /**
  * File .eslintrc.js created on 25-05-2020.
- * Last modified on 2020-05-25T22:14:37 CEST
+ * Last modified on 2020-05-26T00:08:02 CEST
  *
  * @fileoverview ESLint configuration
  * @license GPL-3.0-or-later
@@ -35,15 +35,6 @@ module.exports = {
     ],
     rules: {
         "no-unexpected-multiline": WARN,
-        "valid-jsdoc": [
-            ERROR,
-            {
-                requireReturn: true,
-                requireReturnDescription: true,
-                requireParamDescription: true,
-                prefer: { return: "returns" },
-            },
-        ],
         "accessor-pairs": [
             ERROR,
             {

@@ -1,4 +1,38 @@
-p {
-    color: #455572;
-    font-size: 32px;
+$red: #aa3322;
+$blue: #4555cc;
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    .color-indicator {
+        margin: 0 5px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    button {
+        font-size: 22px;
+        padding: 6px;
+        margin: 10px 10px;
+    }
+
+    * {
+        margin: 10px 0; 
+        background-color: white;
+
+        &.red {
+            color: $red;
+            border-color: $red;
+        }
+        
+        &.blue {
+            color: $blue;
+            border-color: $blue;
+        }
+    }
 }

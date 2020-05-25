@@ -1,6 +1,6 @@
 /**
  * File index.ts created on 25-05-2020.
- * Last modified on 2020-05-25T23:41:07 CEST
+ * Last modified on 2020-05-26T00:21:13 CEST
  *
  * @fileoverview
  * @license GPL-3.0-or-later
@@ -9,13 +9,14 @@
  * @format
  */
 
-let clicks = 0;
+let selected_btn = "red";
 
 /**
  * Increments the click counter.
  *
+ * @param clr - Color to select.
  * @returns void.
  */
-function on_lbl_click(): void {
-    clicks++;
+function select_clr(clr: string): void {
+    selected_btn = clr;
 }
