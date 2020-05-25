@@ -1,8 +1,11 @@
 # Sapper template
 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/kruhlmann/sapper-preprocess-template/deploy?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/kruhlmann/sapper-preprocess-template?style=for-the-badge)
+
 ## Introduction
 
-This template is built to support Typescript, pug and SCSS in a sapper project.
+This template is built to support TypeScript, pug and SCSS in a sapper project.
 
 ## Setup
 
