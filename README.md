@@ -4,8 +4,6 @@
 
 This template is built to support Typescript, pug and SCSS in a sapper project.
 
-## Requirements
-
 ## Setup
 
 ```bash
