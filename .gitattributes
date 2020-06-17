@@ -1,2 +1,3 @@
-./src/core/*.js linguist-vendored
-./*.js linguist-vendored
+src/core/*.js linguist-vendored
+.eslintrc.js linguist-vendored
+rollup.config.js linguist-vendored
