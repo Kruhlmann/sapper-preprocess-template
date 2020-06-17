@@ -1,3 +1,4 @@
 src/core/*.js linguist-vendored
+src/core/*.html linguist-vendored
 cypress/**/*.js
 *.js linguist-vendored
