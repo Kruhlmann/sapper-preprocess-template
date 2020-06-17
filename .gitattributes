@@ -1,1 +1,2 @@
-src/core/*.js linguist-vendored
+./src/core/*.js linguist-vendored
+./*.js linguist-vendored
