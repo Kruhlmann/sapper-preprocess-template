@@ -1,6 +1,6 @@
 {
-    "name": "wert-frontend",
-    "description": "Frontend component of the Wert platform",
+    "name": "sapper-preprocess-template",
+    "description": "CHANGE_ME",
     "version": "0.0.1",
     "scripts": {
         "dev": "sapper dev --src src/core --routes src/routes",
