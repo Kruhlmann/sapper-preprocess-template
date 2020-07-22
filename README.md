@@ -1,5 +1,7 @@
 # Sapper template
 
+## THIS PROJECT IS DEPRECATED. SVELTE NOW SUPPORTS TYPESCRIPT NATIVELY.
+
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/kruhlmann/sapper-preprocess-template/deploy?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/kruhlmann/sapper-preprocess-template?style=for-the-badge)
 
